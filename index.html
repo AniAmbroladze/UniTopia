@@ -1,0 +1,447 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Unitopia</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts  -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles  -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+
+  </head>
+
+<body>
+
+    <!-- Logo and Navigation -->
+
+  <style>
+
+    .logo {
+      float: left ;
+      width: 153px;
+      length: 500px;
+    }
+    .nav{
+      float: right;
+    }
+
+  </style>
+
+      <div class="logo">
+          <img src="img/logo.jpg" alt="logo" style="width:100%">
+      </div>
+
+    <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+          <a class="navbar-brand" href="index.html"><b> Welcome to Unitopia</b></a>
+          <a class="btn btn-primary" href="signin.php">Sign In</a>
+      </div>
+    </nav>
+
+
+ <!-- Masterhead (Background photo, overlayed text & search bar)-->
+
+<style>
+    
+    header.masthead {
+    text-align: center;
+    color: white; 
+}
+
+  #banner {
+    background: url("img/head.jpg") center center no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+
+<header class="masthead" id="banner">
+  <div class="container">
+   <div class="row">  
+    <div class="col-xl-9 mx-auto text-center">
+      <div class="intro-text">
+        <h1 class="name">Welcome to the Gateway to a Bright Future</h1>
+        <hr class="star-light">
+      </div>
+    </div>
+  <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">  
+     <form>
+        <div class="form-row">
+          <div class="col-12 col-md-9 mb-2 mb-md-0">
+             <input type="email" class="form-control form-control-lg" placeholder="Enter Here...">
+          </div>
+          <div class="col-12 col-md-3">
+            <button type="submit" class="btn btn-block btn-lg btn-primary"> Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+</header>
+
+
+    <!-- Icons Grid for navigation to programs, exams & universities -->
+    <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-screen-desktop m-auto text-primary"></i>
+              </div>
+             <a href="programs.html" style="color:black"> <h3>Programs</h3> </a>
+              <p class="lead mb-0">Read here for the programs offered at different universities</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-layers m-auto text-primary"></i>
+              </div>
+             <a href="exams.html" style="color:black"> <h3>Exams</h3> </a>
+              <p class="lead mb-0">Read here for all the exams you need to take and the policies.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-check m-auto text-primary"></i>
+              </div>
+             <a href="universities.html" style="color:black"> <h3 >Universities</h3> </a>
+              <p class="lead mb-0">Find your dream institution here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- up-coming feature version 1.1 -->
+    <!-- Image Showcases 
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Exams</h2>
+            <p class="lead mb-0">Take mock exams here </p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Informations for enrolling students</h2>
+            <p class="lead mb-0">Learn more about University life!</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Question  &amp; Answer </h2>
+            <p class="lead mb-0">find some commonly asked questions here </p>
+        </div>
+      </div>
+    </section>
+
+-->
+<!-- Three sided photos --> 
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+
+<div class="row">
+  <div class="column">
+ <h1> <center> <font color=""> 75 Universities </font> </center> </h1> 
+    <img src="img/univ.jpg" alt="universities" style="width:100%">
+  </div>
+  <div class="column">
+      <h1> <center> <font color=""> 100 000+ students </font> </center> </h1> 
+    <img src="img/stud.jpg" alt="pograms" style="width:100%">
+  </div>
+  <div class="column">
+      <h1> <center> <font color="">
+35+ Programs</font> </center> </h1> 
+    <img src="img/prog.jpg" alt="students" style="width:100%">
+  </div>
+</div>
+    
+
+    <!-- Call to Action (Sign up bar) -->
+    <section class="call-to-action text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form>
+              <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                </div>
+                <div class="col-12 col-md-3">
+                  <a  style ="color: black; background-color: #007bff" type="submit" class="btn btn-block btn-lg btn-primary" href="signup.php"> Sign Up </a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<style>
+.privacy, .imprint,
+.contact, .about{
+  display: none; 
+  position: fixed; 
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; /* Enabling scrolling */
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.privacy-content,.imprint-content,
+.contact-content,.about-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close, .close1,.close2,.close3 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,.close1:hover,
+.close:focus, .close1:focus, 
+.close2:hover,.close3:hover,
+.close2:focus, .close3:focus  {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a id="Btn3" href="#">About</a>
+                <div id="ab" class="about">
+                  <div class="about-content">
+                    <span class="close3">&times;</span>
+                      <p> <h1><center>About</center></h1> 
+                        sd
+                      </p>
+                     </div>
+                </div>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a id="Btn2" href="#">Contact</a>
+                <div id="con" class="contact">
+                  <div class="contact-content">
+                    <span class="close2">&times;</span>
+                      <p> <h1><center>Contact</center></h1> 
+                        
+                      </p>
+                     </div>
+                </div>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+               <a id="Btn1" href="#">Imprint</a>
+                <div id="imp" class="imprint">
+                  <div class="imprint-content">
+                    <span class="close1">&times;</span>
+                      <p> <h1>Imprint</h1> 
+                        For each external link existing on this website, we initially have checked that the target page
+                        does not contain contents which is illegal wrt. German jurisdiction. However, as we have no influence
+                        on such contents, this may change without our notice. Therefore we deny any responsibility
+                        for the websites referenced through our external links from here.
+                        This website is student lab work and does not necessarily reflect Jacobs University Bremen opinions.
+                        Jacobs University Bremen does not endorse this site, nor is it checked by Jacobs University
+                        Bremen regularly, nor is it part of the official Jacobs University Bremen web presence. 
+                        Contact for any issues:
+                        somethingaatjacobs-university.de
+                      </p>
+                     </div>
+                </div>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a id="Btn" href="#">Privacy Policy</a>
+                <div id="prPo" class="privacy">
+                  <div class="privacy-content">
+                    <span class="close">&times;</span>
+                      <p> 
+                        <h1 style = "color: #007bff"> <center> Privacy Notice </center> </h1> 
+                        <br/>This privacy notice discloses the privacy practices for Unitopia. This privacy notice applies solely to information collected by this website. It will notify you of the following:
+                        <br/>
+                        <br/>1. What personally identifiable information is collected from you through the website, how it is used and with whom it may be shared.
+                        <br/>2. What choices are available to you regarding the use of your data.
+                        <br/>3. The security procedures in place to protect the misuse of your information.
+                        <br/>4. How you can correct any inaccuracies in the information.<br/>
+                        <br/> <h3 style = "color: #2B3856"> Information Collection, Use, and Sharing </h3> 
+                        We are the sole owners of the information collected on this site. We only have access to/collect information that you voluntarily give us via email or other direct contact from you. We will not sell or rent this information to anyone.
+                        <br/> We will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to ship an order.
+                        <br/> Unless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy.<br/>
+                        <br/><h3 style = "color: #2B3856"> Your Access to and Control Over Information </h3> 
+                        You may opt out of any future contacts from us at any time. You can do the following at any time by contacting us via the email address or phone number given on our website: <br/>
+                        <br/> - See what data we have about you, if any.
+                        <br/> - Change/correct any data we have about you.
+                        <br/> - Have us delete any data we have about you.
+                        <br/> - Express any concern you have about our use of your data.<br/>
+                        <br/> <h3 style = "color: #2B3856" > Security </h3> 
+                        We take precautions to protect your information. When you submit sensitive information via the website, your information is protected both online and offline.
+                        Wherever we collect sensitive information (such as credit card data), that information is encrypted and transmitted to us in a secure way. You can verify this by looking for a lock icon in the address bar and looking for "https" at the beginning of the address of the Web page.
+                        While we use encryption to protect sensitive information transmitted online, we also protect your information offline. Only employees who need the information to perform a specific job (for example, billing or customer service) are granted access to personally identifiable information. 
+                        The computers/servers in which we store personally identifiable information are kept in a secure environment.
+                        <br/><b style = "color: #2B3856" >If you feel that we are not abiding by this privacy policy, you should contact us immediately via telephone at XXX YYY-ZZZZ or via email.</b>
+                     </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <!-- JS for modals-->
+                <script>
+
+                  var modal = document.getElementById('prPo');
+                  var modal1 = document.getElementById('imp');
+                  var modal2 = document.getElementById('con');
+                  var modal3 = document.getElementById('ab');
+                  
+                  // The button that opens the window
+                  var btn = document.getElementById("Btn");
+                  var btn1 = document.getElementById("Btn1");
+                  var btn2 = document.getElementById("Btn2");
+                  var btn3 = document.getElementById("Btn3");
+                 
+                  // Get the <span> element that closes the window
+                  var span = document.getElementsByClassName("close")[0];
+                  var span1 = document.getElementsByClassName("close1")[0];
+                  var span2 = document.getElementsByClassName("close2")[0];
+                  var span3 = document.getElementsByClassName("close3")[0];
+                  
+                  // By clicking opens up the window 
+                  btn.onclick = function() {
+                    modal.style.display = "block";
+                  }
+                  btn1.onclick = function() {
+                    modal1.style.display = "block";
+                  }
+                  btn2.onclick = function() {
+                    modal2.style.display = "block";
+                  }
+                  btn3.onclick = function() {
+                    modal3.style.display = "block";
+                  }
+
+                  // By clicking on <span> (x) closes the window
+                  span.onclick = function() {
+                    modal.style.display = "none";
+                  }
+                  span1.onclick = function() {
+                    modal1.style.display = "none";
+                  }
+                  span2.onclick = function() {
+                    modal2.style.display = "none";
+                  }
+                  span3.onclick = function() {
+                    modal3.style.display = "none";
+                  }
+
+                  // By clicking outside the box, closes the window
+                  window.onclick = function(event) {
+                    if (event.target == modal) {
+                      modal.style.display = "none";
+                    }
+                    if (event.target == modal1) {
+                      modal1.style.display = "none";
+                    }
+                    if (event.target == modal2) {
+                      modal2.style.display = "none";
+                    }
+                    if (event.target == modal3) {
+                      modal3.style.display = "none";
+                    }
+                  }
+                  </script>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; Unitopia Website 2018. All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fab fa-facebook fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-instagram fa-2x fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
